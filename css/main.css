@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* Assignment 1 | COMP1073 Client-Side JavaScript */
+
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d3d3d3; /* Background color for the entire page */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    color: #333; /* Default text color */
+    height: 100vh; /* Adjusted height to cover the viewport */
+    overflow: auto; /* Added overflow to enable scrolling if needed */
+}
+
+/* Heading styles */
+h1 {
+    margin-bottom: 20px; /* Added margin-bottom for better spacing */
+}
+
+/* Container styles */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1000px; /* Increased max-width for better layout */
+    margin-bottom: 20px;
+}
+
+/* Button styles */
+button {
+    background-color: #333; /* Button background color */
+    color: white; /* Button text color */
+    border: none;
+    border-radius: 16px; /* Increased border-radius for a rounder button */
+    padding: 20px 40px; /* Increased padding for a bigger button */
+    font-size: 20px; /* Increased font size for the button */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #555; /* Button hover background color */
+}
+
+/* Textarea styles */
+textarea {
+    width: 150px; 
+    height: 40px;
+    padding: 10px; 
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px; 
+    margin-top: 10px; 
+}
+
+textarea#area {
+    height: 100px; /* Adjusted height for better visibility */
+}
+
+textarea#storyarea {
+    height: 150px; 
+    width: calc(100% - 20px); 
+}
+
+/* Additional button styles */
+button#speakstory,
+button#stopspeaking {
+    margin-top: 10px; /* Adjusted margin-top for better spacing */
+}
+
+button#reset {
+    background-color: #333; /* Reset button background color */
+    padding: 15px 30px; /* Decreased padding for the last buttons */
+    font-size: 18px; /* Decreased font size for the last buttons */
+}
+
+/* Additional textarea styles */
+textarea#area,
+textarea#storyarea {
+    width: calc(100% - 20px); 
+}

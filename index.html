@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1 | COMP1073 Client-Side JavaScript</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<!-- Title -->
+	<h1>Play with words!</h1>
+	
+	<!-- Container for buttons -->
+	<div class="container">
+	    <button id="1">Subject</button>
+	    <button id="2">Verb</button>
+	    <button id="3">Adjective</button>
+	    <button id="4">Noun</button>
+	    <button id="5">Object</button>
+	</div>
+
+	<!-- Container for textareas -->
+	<div class="container">
+	    <textarea id="area1" placeholder="Press Subject"></textarea>
+	    <textarea id="area2" placeholder="Press Verb"></textarea>
+	    <textarea id="area3" placeholder="Press Adjective"></textarea>
+	    <textarea id="area4" placeholder="Press Noun"></textarea>
+	    <textarea id="area5" placeholder="Press Object"></textarea>
+	</div>
+
+	<!-- Container for 'Read Sentence Aloud' button and its associated textarea -->
+	<div class="container">
+	    <button id="speak">Read Sentence Aloud</button>
+	    <textarea id="area" placeholder="Press Read Sentence Aloud"></textarea>
+	</div>
+
+	<!-- Container for 'Generate a Story' button and its associated textarea -->
+	<div class="container">
+	    <button id="story">Generate a Story</button>
+	    <textarea id="storyarea" placeholder="Press Generate a Story"></textarea>
+	</div>
+
+	<!-- Container for 'Read Story Aloud', 'Stop Reading', and 'Reset' buttons -->
+	<div class="container">
+	    <button id="speakstory">Read Story Aloud</button>
+	    <button id="stopspeaking">Stop Reading</button>
+	    <button id="reset">Reset</button>
+	</div>
+
+	<script src="js/app.js"></script>
+</body>
+</html>
